@@ -58,4 +58,3 @@ include('../includes/footer.php');
 mysqli_free_result($resultado_ventas);
 cerrar_conexion($conexion);
 ?>
-

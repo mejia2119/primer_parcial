@@ -59,7 +59,7 @@ include('../includes/header.php');
                     <td><?php echo '$' . number_format($venta['precio_unitario'], 2); ?></td>
                     <td><?php echo '$' . number_format($venta['total'], 2); ?></td>
                     <td>
-                        <a href="editar.php?id=<?php echo $venta['id_venta']; ?>" class="btn btn-editar">Editar</a>
+                        
                         <a href="eliminar.php?id=<?php echo $venta['id_venta']; ?>" class="btn btn-eliminar" onclick="return confirm('¿Está seguro de eliminar esta venta?')">Eliminar</a>
                     </td>
                 </tr>
